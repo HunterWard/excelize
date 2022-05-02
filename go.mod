@@ -13,3 +13,5 @@ require (
 	golang.org/x/net v0.0.0-20220407224826-aac1ed45d8e3
 	golang.org/x/text v0.3.7
 )
+
+replace github.com/xuri/excelize/v2 => github.com/HunterWard/excelize/v2 v1.4.1
