@@ -933,6 +933,9 @@ func (nf *numberFormat) textHandler() (result string) {
 			result += nf.value
 		}
 	}
+	if result == "" {
+		return nf.value
+	}
 	return result
 }
 
